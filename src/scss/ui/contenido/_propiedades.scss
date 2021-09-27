@@ -20,8 +20,9 @@
     background-color: v.$blanco;
     &__imagen {
         aspect-ratio: 10 / 6;
-        background-size: cover;
+        background-size: 150% 150%;
         position: relative;
+        background-repeat: no-repeat;
     }
     @for $i from 1 through 6 {
         $imagen: '../img/propiedad_' + $i + '.jpg';
